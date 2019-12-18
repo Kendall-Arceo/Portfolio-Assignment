@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+    min-height: 100%;
+
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc !important;
+
+}
+
+header::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.Myname {
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+    left: 350px;
+    width: 200px;
+    height: 100px;
+    font-size: x-large;
+    
+}
+
+nav {
+    float:right;
+    position:absolute;
+    right: 325px;
+}
+
+nav ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin-left:75px;
+    padding-top: 25px;
+
+}
+
+nav a {
+    color: #cccccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+.Aboutme {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    display: flex; 
+    align-items: left; 
+    justify-content: left; 
+    position: relative;
+    left: 0px;
+    width: 960px;
+    height: 50px;
+    font-size: xx-large;
+    border-bottom: 5px solid #cccccc !important;
+    overflow: auto;
+}
+
+.Wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    border: 2px solid #cccccc !important;
+    overflow: auto;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+
+}
+
+img {
+    Float: left ;
+    margin-right: 20px;
+
+}
+.footer {
+    background-color: gray;
+    border-top: 10px solid#4aaaa5 !important;
+    position: sticky;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+
+}
+
+.nametemplate {
+    border: 1px solid #cccccc !important;
+    width: 900px;
+    margin: 0 auto 0 auto;
+    float: left;
+
+}
+
+.email {
+    border: 1px solid #cccccc !important;
+    width: 900px;
+    margin: 0 auto 0 auto;
+    float: left;
+}
+
+.message {
+    border: 1px solid #cccccc !important;
+    width: 900px;
+    height: 250px;
+    margin: 0 auto 0 auto;
+    float: left;
+
+}
+
+.button {
+    float:left;
+
+}
+
+.Submit {
+    float: left;
+    top: 20px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+    width: 75px;
+    height: 25px;
+    font-size: large;
+}
+
+.content-WRX {
+    width: 0 ;
+    margin: 0;
+    
+}
+
+.content-WRX img {
+    width: 200px;
+    float: left;
+
+}
+
+.text-wrapper1 {
+    position: absolute;
+    margin-top:0;
+    top: 400px;
+
+}
+
+.text-wrapper1 h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color:#4aaaa5 ;
+    color: #ffffff;
+    font-size: small;
+    width:200px;
+    height:45px;
+    position: relative;
+
+}
+
+.text-wrapper2 {
+    position: absolute;
+    margin-top:0;
+    top: 400px;
+    left: 585.5px;
+    overflow: auto;
+}
+
+.text-wrapper2 h2 {
+    text-align: center;
+    text-decoration: underline;
+    background-color:#4aaaa5 ;
+    color: #ffffff;
+    font-size: small;
+    width:220px;
+    height:45px;
+    position: relative;
+}
+
+
+.text-wrapper3 {
+    position: absolute;
+    margin-top:0;
+    top: 400px;
+    left: 825px;
+
+}
+
+.text-wrapper3 h3 {
+    text-align: center;
+    text-decoration: underline;
+    background-color:#4aaaa5 ;
+    color: #ffffff;
+    font-size: small;
+    width:265px;
+    height:45px;
+    position: relative;
+    white-space: nowrap;
+    overflow: auto;
+}   
+
+.content-trivia {
+    width: 0 ;
+    margin: 0;
+    
+}
+
+.content-trivia img {
+    width: 200px;
+    float: bottom;
+    position: relative;
+    top: 75px;
+
+}
+
+.text-wrapper4 {
+    position: absolute;
+    margin-top:0;
+    top: 610px;
+    left: 365.25px;
+
+}
+
+.text-wrapper4 h4 {
+    text-align: center;
+    text-decoration: underline;
+    background-color:#4aaaa5 ;
+    color: #ffffff;
+    font-size: small;
+    width:200px;
+    height:45px;
+    position: relative;
+}   
+
+.content-nutrition {
+    width: 0 ;
+    margin: 0;
+
+}
+
+.content-nutrition img {
+    width: 200px;
+    float: bottom;
+    position: relative;
+    top: -75px;
+    left: 220px;
+
+}
+
+.text-wrapper5 {
+    position: absolute;
+    margin-top:0;
+    top: 610px;
+    left:  585.5px;
+
+}
+
+.text-wrapper5 h5 {
+    text-align: center;
+    text-decoration: underline;
+    background-color:#4aaaa5 ;
+    color: #ffffff;
+    font-size: small;
+    width:200px;
+    height:45px;
+    position: relative;
+    white-space: nowrap;
+    overflow: auto;
+}   
